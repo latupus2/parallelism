@@ -1,1 +1,1 @@
-# parallelism
+# Сборака CMake
