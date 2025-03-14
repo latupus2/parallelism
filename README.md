@@ -1,1 +1,1 @@
-# parallelism
+# Сборка MakeFile
