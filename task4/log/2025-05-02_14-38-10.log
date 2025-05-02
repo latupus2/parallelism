@@ -1,0 +1,11 @@
+2025-05-02 14:38:10,790 - ERROR - Failed to open camera: ROOT/MEDIA/0001
+2025-05-02 14:38:10,790 - ERROR - Error in main: Failed to open camera: ROOT/MEDIA/0001
+Traceback (most recent call last):
+  File "F:\VScode\NSU\teoriaParallelizma\task4\task4.py", line 130, in main
+    camera = SensorCam(args.camera, args.resolution)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\VScode\NSU\teoriaParallelizma\task4\task4.py", line 41, in __init__
+    raise RuntimeError(f"Failed to open camera: {self.cam_name}")
+RuntimeError: Failed to open camera: ROOT/MEDIA/0001
+2025-05-02 14:38:10,790 - INFO - Camera resources released
+2025-05-02 14:38:10,791 - INFO - Program terminated
