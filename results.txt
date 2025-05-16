@@ -1,0 +1,5 @@
+single 1: 35.39 seconds
+multi 1: 37.79 seconds
+multi 2: 30.23 seconds
+multi 4: 25.37 seconds
+multi 8: 25.18 seconds
